@@ -1,0 +1,58 @@
+\documentclass[pdf,color]{UCLnote}
+
+%\usepackage{listings}
+\usepackage{braket}
+\usepackage{subcaption}
+\usepackage{amsthm} % Needed for Proof
+\usepackage{graphicx}
+\usepackage[toc,page]{appendix}
+\usepackage{ragged2e}
+\usepackage[procnames]{listings}
+
+\author{Author}
+
+\shorttitle{}
+\title{Report title}
+\date{\today}
+\id{xxxxxxx}
+
+%--------------------------------------------------------------------------------------
+%	CODE INCLUSION CONFIGURATION
+%--------------------------------------------------------------------------------------
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+ 
+\lstset{language=Python, 
+        basicstyle=\ttfamily\small, 
+        keywordstyle=\color{keywords},
+        commentstyle=\color{comments},
+        stringstyle=\color{red},
+        showstringspaces=false,
+        identifierstyle=\color{green},
+        procnamekeys={def,class}}
+%--------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle
+%\tableofcontents
+%\vspace{1cm}\hrule \vspace{1cm}
+%\newpage
+
+\section{Introduction}
+
+
+
+
+% Example code inclusion
+%\begin{lstlisting}
+%class Map(object):
+%    def __init__(self, lat, long, ...):
+%        ...
+%        self.image = requests.get(base, params=params).content
+%        self.pixels= img.imread(StringIO(self.image))
+%\end{lstlisting}
+
+\end{document}
